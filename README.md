@@ -14,6 +14,8 @@
 - **Self-contained:** no account, backend, analytics, remote assets, or network requests during play.
 - **LG package metadata:** includes the required webOS `appinfo.json` and launcher icons.
 
+The initial hardware target is the [LG 55UQ7070ZUE](https://www.lg.com/us/tvs/lg-55uq7070zue-4k-uhd-tv), which LG lists as a webOS 22 TV. The app requests a 1920 × 1080 graphics surface, the maximum web app resolution in [LG's app metadata reference](https://webostv.developer.lge.com/develop/references/appinfo-json); the TV itself has a 4K panel. Physical-device play has not yet been verified.
+
 ![Wire-cutting round](docs/wire-round.png)
 
 ## Play in a browser
