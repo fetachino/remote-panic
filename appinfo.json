@@ -1,0 +1,12 @@
+{
+  "id": "com.fetachino.app.remotepanic",
+  "title": "Remote Panic",
+  "type": "web",
+  "main": "index.html",
+  "icon": "assets/icon-80.png",
+  "largeIcon": "assets/icon-130.png",
+  "version": "1.0.0",
+  "vendor": "fetachino",
+  "requiredACG": [],
+  "resolution": "1920x1080"
+}

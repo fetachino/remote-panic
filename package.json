@@ -1,0 +1,21 @@
+{
+  "name": "remote-panic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fast, remote-controlled microgame arcade for LG webOS TV.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "smoke": "node tools/smoke.js",
+    "format": "prettier --write index.html styles.css appinfo.json src/*.js tools/*.js tests/*.js package.json README.md",
+    "format:check": "prettier --check index.html styles.css appinfo.json src/*.js tools/*.js tests/*.js package.json README.md",
+    "serve": "npx --yes http-server . -p 4173 -c-1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1",
+    "prettier": "^3.6.2"
+  }
+}
