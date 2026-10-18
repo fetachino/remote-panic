@@ -2,6 +2,8 @@
 
 **One remote. No time to think.** Remote Panic is a fast, full-screen microgame arcade built for LG webOS TV. Survive a series of short emergencies with only the directional pad and OK button. Each clear earns points; each mistake costs a life; each new round shortens the clock.
 
+**[Play the browser demo](https://fetachino.github.io/remote-panic/)** · [View the source on GitHub](https://github.com/fetachino/remote-panic)
+
 ![Remote Panic title screen](docs/menu.png)
 
 ## At a glance
